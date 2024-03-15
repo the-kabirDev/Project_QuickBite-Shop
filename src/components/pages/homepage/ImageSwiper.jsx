@@ -17,7 +17,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 
-const Practise = () => {
+const ImageSwiper = () => {
   return (
     <>
       <div>
@@ -49,4 +49,4 @@ const Practise = () => {
   );
 };
 
-export default Practise;
+export default ImageSwiper;
