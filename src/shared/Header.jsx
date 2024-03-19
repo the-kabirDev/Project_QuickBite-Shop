@@ -1,4 +1,5 @@
 import "../components/css/Header.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -27,11 +28,9 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>menu</a>
+                <NavLink to="/menu">menu</NavLink>
               </li>
-              <li>
-                <a>our special</a>
-              </li>
+
               <li>
                 <a>about us</a>
                 <ul className="p-2">
@@ -48,16 +47,18 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">quickBite</a>
+          <NavLink to="/" className="btn btn-ghost text-2xl">
+            quickBite
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-lg font-bold">menu</a>
+              <NavLink to="/menu" className="text-lg font-bold">
+                menu
+              </NavLink>
             </li>
-            <li>
-              <a className="text-lg font-bold">our special</a>
-            </li>
+
             <li>
               <details>
                 <summary className="text-lg font-bold">about us</summary>
@@ -77,7 +78,8 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-md">sign in</a>
+          <i className="fa-solid fa-cart-shopping mr-5 text-2xl"></i>
+          <a className="btn text-md mr-8">login</a>
         </div>
       </div>
     </>
