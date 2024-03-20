@@ -3,6 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import Homepage from "../components/pages/homepage/Homepage";
 import SignIn from "../components/pages/signIn/SignIn";
 import Menu from "../components/pages/menu/Menu";
+import NotFound from "../components/static/NotFound";
 
 const MainRoutes = createBrowserRouter([
   {
@@ -23,6 +24,14 @@ const MainRoutes = createBrowserRouter([
   {
     path: "/menu",
     element: <Menu />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
+  },
+  {
+    path: "/sign-in",
+    element: <SignIn />,
   },
 ]);
 

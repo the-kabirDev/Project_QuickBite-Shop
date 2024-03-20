@@ -7,7 +7,8 @@ import samosa from "../../images/samosa.png";
 const Menu = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center items-center">
+      <h2 className="">Popular Menu</h2>
+      <div className="flex flex-wrap justify-center items-center mt-12">
         {/* Burger */}
         <div className="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg  border-gray-100 bg-white shadow-md ">
           <a
