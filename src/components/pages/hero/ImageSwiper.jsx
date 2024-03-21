@@ -2,19 +2,12 @@ import banner1 from "../../images/banner1.png";
 import banner2 from "../../images/banner2.png";
 import banner3 from "../../images/banner3.png";
 
-// import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import "./styles.css";
-
-// import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 
 const ImageSwiper = () => {

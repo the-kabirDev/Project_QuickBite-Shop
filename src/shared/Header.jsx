@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="navbar bg-base-100 fixed z-10">
+      <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <NavLink to="/" className="btn btn-ghost text-2xl">
+          <NavLink to="/" className="btn btn-ghost text-2xl ml-5">
             quickBite
           </NavLink>
         </div>
@@ -81,7 +81,7 @@ const Header = () => {
           <i className="fa-solid fa-cart-shopping mr-5 text-2xl"></i>
           <NavLink
             to="/sign-in"
-            className="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-md animate-pulse text-md mr-8"
+            className="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-md animate-pulse text-md mr-12"
           >
             login
           </NavLink>
