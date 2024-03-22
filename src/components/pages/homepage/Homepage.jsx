@@ -1,11 +1,12 @@
 import Hero from "../hero/Hero";
-import Menu from "../menu/Menu";
+
+import Products from "../menu/Products";
 
 const Homepage = () => {
   return (
     <div>
       <Hero />
-      <Menu />
+      <Products />
     </div>
   );
 };

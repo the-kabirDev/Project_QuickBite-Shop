@@ -25,16 +25,16 @@ const Hero = () => {
               mealtime experience. Order now and savor the difference with us!
             </p>
             <div className="flex justify-center">
-              <button className="flex justify-center items-center gap-2 w-28 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-[#fb7185] via-[#e11d48] to-[#be123c] hover:shadow-xl hover:shadow-red-500 hover:scale-105 duration-300 hover:from-[#be123c] hover:to-[#fb7185]">
+              <button className="flex justify-center items-center gap-2 lg:w-28 sm:w-20 lg:h-12 sm:h-8 cursor-pointer rounded-md shadow-2xl text-white text-sm p-3 font-semibold bg-gradient-to-r from-[#fb7185] via-[#e11d48] to-[#be123c] hover:shadow-xl hover:shadow-red-500 hover:scale-105 duration-300 hover:from-[#be123c] hover:to-[#fb7185]">
                 Order Now
               </button>
 
-              <button className="inline-block py-2 px-6 rounded-l-xl ml-4 rounded-t-xl bg-[#4bdd72] hover:bg-white hover:text-[#7747FF] focus:text-[#7747FF] focus:bg-gray-200 text-gray-50 font-bold leading-loose transition duration-200">
+              <button className="inline-block lg:py-2 lg:px-6 p-2 lg:rounded-l-xl ml-4 rounded-t-xl bg-[#4bdd72] hover:bg-white hover:text-[#7747FF] focus:text-[#7747FF] focus:bg-gray-200 text-gray-50 font-bold leading-loose transition duration-200">
                 Menu
               </button>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div className="lg:max-w-lg md:max-w-md w-[px]">
             <ImageSwiper />
           </div>
         </div>

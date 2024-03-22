@@ -1,54 +1,59 @@
 [
   {
-    "key": "Burger1",
+    "id": 1,
+    "key": "Burger",
     "name": "Classic Cheeseburger",
     "img": "https://i.ibb.co/WvcXkNk/Burger-With-Fries.png",
-    "url": "https://example.com/menu/burger123",
     "price": 250,
     "description": "Juicy beef patty topped with melted cheese, lettuce, tomato, onions, and special sauce, served on a sesame seed bun.",
     "rating": 4.5
   },
   {
-    "key": "Pizza2",
+    "id": 2,
+    "key": "Pizza",
     "name": "Pepperoni Pizza",
     "img": "https://i.ibb.co/XtLHfNs/banner2.png",
-    "url": "https://example.com/menu/pizza456",
+
     "price": 550,
     "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
     "rating": 4.8
   },
   {
-    "key": "Noodles3",
+    "id": 3,
+    "key": "Noodles",
     "name": "Noddles",
-    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
-    "url": "https://example.com/menu/pizza456",
+    "img": "https://i.ibb.co/qgvdVcq/3.png",
+
     "price": 150,
     "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
     "rating": 4.8
   },
   {
-    "key": "Chicken Hot Wings4",
+    "id": 4,
+    "key": "Chicken Hot Wings",
     "name": "Chicken Hot Wings",
-    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
-    "url": "https://example.com/menu/pizza456",
-    "price": 150,
+    "img": "https://i.ibb.co/TRqLxcj/Wings.png",
+
+    "price": 200,
     "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
     "rating": 4.8
   },
   {
-    "key": "Double Layer Burger5",
+    "id": 5,
+    "key": "Double Layer Burger",
     "name": "Double Layer Burger",
-    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
+    "img": "https://i.ibb.co/w4bf9jD/Double-Layer-Burger.png",
     "url": "https://example.com/menu/pizza456",
     "price": 350,
     "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
     "rating": 4.8
   },
   {
-    "key": "Samosas With Green Chatni6",
+    "id": 6,
+    "key": "Samosas With Green Chatni",
     "name": "Samosas With Green Chatni",
-    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
-    "url": "https://example.com/menu/pizza456",
+    "img": "https://i.ibb.co/0Mct69D/samosa.png",
+
     "price": 100,
     "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
     "rating": 4.8
