@@ -12,7 +12,7 @@ const Menu = () => {
           <h2 className="text-center font-semibold lg:text-lg md:text-md sm:text-sm ">
             POPULAR MENU
           </h2>
-          <h1 className="text-center tracking-wider lg:text-4xl md:text-3xl sm:text-3xl sm:font-bold font-bold ">
+          <h1 className="text-center tracking-wider lg:text-4xl md:text-3xl sm:text-3xl sm:font-bold font-bold lg:mt-0 md:mt-10 sm:mt-24">
             Amazing Food Served <br /> With Delicacy
           </h1>
         </div>

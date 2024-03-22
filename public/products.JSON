@@ -1,0 +1,56 @@
+[
+  {
+    "key": "Burger1",
+    "name": "Classic Cheeseburger",
+    "img": "https://i.ibb.co/WvcXkNk/Burger-With-Fries.png",
+    "url": "https://example.com/menu/burger123",
+    "price": 250,
+    "description": "Juicy beef patty topped with melted cheese, lettuce, tomato, onions, and special sauce, served on a sesame seed bun.",
+    "rating": 4.5
+  },
+  {
+    "key": "Pizza2",
+    "name": "Pepperoni Pizza",
+    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
+    "url": "https://example.com/menu/pizza456",
+    "price": 550,
+    "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
+    "rating": 4.8
+  },
+  {
+    "key": "Noodles3",
+    "name": "Noddles",
+    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
+    "url": "https://example.com/menu/pizza456",
+    "price": 150,
+    "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
+    "rating": 4.8
+  },
+  {
+    "key": "Chicken Hot Wings4",
+    "name": "Chicken Hot Wings",
+    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
+    "url": "https://example.com/menu/pizza456",
+    "price": 150,
+    "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
+    "rating": 4.8
+  },
+  {
+    "key": "Double Layer Burger5",
+    "name": "Double Layer Burger",
+    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
+    "url": "https://example.com/menu/pizza456",
+    "price": 350,
+    "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
+    "rating": 4.8
+  },
+  {
+    "key": "Samosas With Green Chatni6",
+    "name": "Samosas With Green Chatni",
+    "img": "https://i.ibb.co/XtLHfNs/banner2.png",
+    "url": "https://example.com/menu/pizza456",
+    "price": 100,
+    "description": "Delicious pizza topped with savory tomato sauce, mozzarella cheese, and slices of pepperoni.",
+    "rating": 4.8
+  }
+]

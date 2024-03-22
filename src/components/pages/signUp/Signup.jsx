@@ -54,7 +54,7 @@ const Signup = () => {
           <Link to="/">
             <IoArrowBackSharp className="text-2xl" />
           </Link>
-          <span className="text-lg font-semibold">Home</span>
+          <span className="text-lg font">Home</span>
         </div>
 
         <h2 className="text-center text-2xl font-bold leading-tight text-black">

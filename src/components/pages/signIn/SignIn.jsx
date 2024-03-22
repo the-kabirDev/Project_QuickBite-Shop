@@ -4,6 +4,7 @@ import Loading from "../../../shared/Loading";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import toast from "react-hot-toast";
 import auth from "../../../../firebase.init";
+import { IoArrowBackSharp } from "react-icons/io5";
 
 const SignIn = () => {
   const [signInWithEmailAndPassword, user, loading, error] =
@@ -33,8 +34,12 @@ const SignIn = () => {
       <section className="m-28">
         <div className="flex bg-white items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-8">
           <div className="xl:mx-auto xl:w-full shadow-md p-4 xl:max-w-sm 2xl:max-w-md">
-            <div className="mb-2 flex justify-center"></div>
-
+            <div className="flex items-center gap-2 mb-3">
+              <Link to="/">
+                <IoArrowBackSharp className="text-md" />
+              </Link>
+              <span className="text-sm font-semibold">Home</span>
+            </div>
             <h2 className="text-center text-2xl font-bold leading-tight text-black">
               Sign in to your account
             </h2>
@@ -100,7 +105,7 @@ const SignIn = () => {
             <div className="mt-3 space-y-3">
               <p className="mt-2 text-center text-sm text-gray-600">
                 Dont have an account?{" "}
-                <Link to="/sign-up" className="text-red-500">
+                <Link to="/sign-up" className="text-red-500 text-lg">
                   Sign Up
                 </Link>
               </p>
