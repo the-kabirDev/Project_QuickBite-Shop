@@ -28,7 +28,7 @@ const ImageSwiper = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img className="inline " src={banner1} alt="" />
+            <img className="inline" src={banner1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
             <img className="inline" src={banner2} alt="" />

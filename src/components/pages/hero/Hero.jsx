@@ -34,9 +34,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="lg:max-w-lg md:max-w-md w-[px]">
-            <ImageSwiper />
-          </div>
+          <div className="max-w-lg">{/* <ImageSwiper /> */}</div>
         </div>
       </section>
     </>

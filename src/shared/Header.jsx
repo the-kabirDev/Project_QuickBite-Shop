@@ -1,7 +1,11 @@
 import "../components/css/Header.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { useAuthState, useSignOut } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
 
 const Header = () => {
+  const [user] = useAuthState(auth);
+  const [signOut] = useSignOut(auth);
   return (
     <>
       <div className="navbar bg-base-100 ">
@@ -28,14 +32,14 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <NavLink to="/menu">menu</NavLink>
+                <NavLink to="/menu">Menu</NavLink>
               </li>
 
               <li>
-                <a>about us</a>
+                <a>About us</a>
               </li>
               <li>
-                <a>contact</a>
+                <a>Contact</a>
               </li>
             </ul>
           </div>
@@ -47,26 +51,40 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink to="/menu" className="text-lg font-bold">
-                menu
+                Menu
               </NavLink>
             </li>
 
             <li>
-              <summary className="text-lg font-bold">about us</summary>
+              <summary className="text-lg font-bold">About us</summary>
             </li>
             <li>
-              <a className="text-lg font-bold">contact</a>
+              <a className="text-lg font-bold">Contact</a>
             </li>
           </ul>
         </div>
+
         <div className="navbar-end">
-          <i className="fa-solid fa-cart-shopping mr-5 text-2xl"></i>
-          <NavLink
-            to="/sign-in"
-            className="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-md animate-pulse text-md mr-12"
-          >
-            login
-          </NavLink>
+          <label htmlFor="cart-drawer" className="drawer-button">
+            <i className="fa-solid fa-cart-shopping mr-5 text-2xl"></i>
+          </label>
+
+          {user ? (
+            <>
+              <button className="btn inline" onClick={signOut}>
+                Logout
+              </button>
+            </>
+          ) : (
+            <>
+              <NavLink
+                to="/sign-in"
+                className="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-md animate-pulse text-md mr-12"
+              >
+                Login
+              </NavLink>
+            </>
+          )}
         </div>
       </div>
     </>

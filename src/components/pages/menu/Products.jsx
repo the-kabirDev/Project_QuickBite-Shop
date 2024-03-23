@@ -55,11 +55,11 @@ const Products = () => {
               </div>
 
               <div className="flex justify-center items-center gap-3 text-lg mt-4 bg-black text-white p-2 font-semibold rounded-lg">
-                <GiShoppingCart className="text-3xl" />
                 <button
-                  className=" tracking-wide"
+                  className=" tracking-wide flex justify-center items-center gap-3"
                   onClick={() => handleCart(product)}
                 >
+                  <GiShoppingCart className="text-3xl" />
                   Buy Now
                 </button>
               </div>
