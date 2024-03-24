@@ -31,8 +31,8 @@ const SignIn = () => {
     "inline-flex mt-4 w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80";
   return (
     <div>
-      <section className="m-28">
-        <div className="flex bg-white items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-8">
+      <section className="m-24">
+        <div className="flex bg-white items-center justify-center lg:px-8 lg:py-8">
           <div className="xl:mx-auto xl:w-full shadow-md p-4 xl:max-w-sm 2xl:max-w-md">
             <div className="flex items-center gap-2 mb-3">
               <Link to="/">
@@ -67,13 +67,6 @@ const SignIn = () => {
                     <label className="text-base font-medium text-gray-900">
                       Password
                     </label>
-                    <a
-                      className="text-sm font-semibold text-black hover:underline"
-                      title=""
-                      href="#"
-                    >
-                      Forgot password?
-                    </a>
                   </div>
                   <div className="mt-2">
                     <input

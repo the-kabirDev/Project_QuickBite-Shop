@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <section className="text-gray-600 h-screen body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row sm:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h4>
               <br className="hidden lg:inline-block" />
@@ -34,7 +34,9 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="max-w-lg">{/* <ImageSwiper /> */}</div>
+          <div className="max-w-[250px] lg:max-w-xl md:max-w-md">
+            <ImageSwiper />
+          </div>
         </div>
       </section>
     </>

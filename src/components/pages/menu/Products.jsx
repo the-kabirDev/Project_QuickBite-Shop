@@ -20,7 +20,7 @@ const Products = () => {
 
   return (
     <>
-      <div className="bg-gray-50 pb-2">
+      <div className="bg-gray-50 pb-2 mt-36 lg:mt-0 md:mt-11">
         <h2 className="text-center font-semibold text-lg">POPULAR MENU</h2>
         <h1 className="text-center tracking-wider text-4xl sm:text-3xl sm:font-bold font-bold lg:mt-0 mt-2">
           Amazing Food Served <br /> With Delicacy
